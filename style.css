@@ -1,0 +1,192 @@
+*{
+	margin: auto;
+	padding: 0;
+	background: #424B54;
+}
+
+body{
+	position: relative;
+	background: #FFFFFF;
+	width: 1440px;
+	height: 2220px;
+}
+
+header{
+	position: absolute;
+	width: 1440px;
+	height: 78px;
+	background: #424B54;
+}
+
+.logo{
+	position: absolute;
+	left: 101px;
+	top: 33px;
+	font-family: Lato Regular;
+	font-size: 24px;
+	line-height: 12px;
+	text-decoration: none;
+
+	color: #FFFFFF;
+	background: #424B54;
+}
+
+.menu{
+	position: absolute;
+	width: 526px;
+	height: 29px;
+	right: 56px;
+	top: 24px;
+}
+
+.menu_item{
+	text-decoration: none;
+	font-family: Lato Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.ex_content{
+	position: absolute;
+	width: 1440px;
+	height: 583px;
+	top: 78px;
+}
+
+img{
+	position: absolute;
+	width: 360px;
+	height: 421px;
+	left: 368px;
+	top: 82px;
+}
+
+.rectangle{
+	position: relative;
+	width: 367px;
+	height: 421px;
+	top: 82px;
+	left: 192px;
+	background: #6DAEDB;
+}
+
+.textbox{
+	position: relative;
+	width: 238px;
+	height: 238px;
+	list-style: none;
+	top: 89px;
+	left: 2px;
+	background: #6DAEDB;
+}
+
+.textbox div{
+	position: inherit;
+	font-family: Lato SemiBold;
+	--font-size: 24px;
+	--line-height: 30px;
+	color: #000000;
+	background: #6DAEDB;
+}
+
+.font1{
+	font-size: 36px;
+	font-style: bold;
+	line-height: 48px;
+	font-size: 36px;
+}
+
+.font2{
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+	line-height: 30px;
+}
+
+.font3{
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+	top: 35px;
+}
+
+.font4{
+	font-size: var(--font-size);
+	line-height: var(--line-height);
+	top: 46px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+		
+    padding-top: 649px;
+	background: #424B54;
+	color: #424B54;
+}
+
+.item{
+	background: #C4C4C4;
+	width: 1440px;
+	height: 334px;
+	margin: 6px;
+	
+	line-height: 78px;
+	color: #0070C0;
+	font-family: Lato SemiBold;
+	font-size: 36px;
+	text-align: center;
+}
+
+.h{
+	padding-top: 55px;
+	background: #C4C4C4;
+	color: #0070C0;
+}
+
+.text{
+	width: 755px;
+	height: 145px;
+	left: 342px;
+
+	font-family: Lato SemiBold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;		
+	color: #000000;
+	background: #C4C4C4;
+}
+
+footer{
+	width: 1440px;
+	height: 210px;
+	background: #424B54;
+}
+
+.contacts{
+	position: absolute;
+	left: 490px; 
+	bottom: 70px;
+}
+
+.contacts a{
+	background: #424B54;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Lato Medium;
+	font-size: 24px;
+	padding: 36px;
+}    
+
+.contacts div{
+	width: 254px;
+	height: 17px;
+	text-align: center;
+	font-family: Lato Regular;
+	font-size: 14px;
+	line-height: 65px;
+	margin-left: 110px;
+
+	color: #FFFFFF;
+}
